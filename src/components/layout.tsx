@@ -17,11 +17,10 @@ title
 				<ul className={ul}>
 					<li><Link to="/" >Home</Link></li>
 					<li><Link to="/about" >About</Link></li>
-					<li><Link to="/blogs">Blog</Link></li>
+					<li><Link to="/blog">Blog</Link></li>
 				</ul>
 			</nav>
 			<main>
-				<h1>{data.site.siteMetadata.title}</h1>
 				<h1>{pageTitle}</h1>
 				{children}
 			</main>
